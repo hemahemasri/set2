@@ -1,15 +1,15 @@
 #include<stdio.h>
 void main()
 {
-int n1,n2,n3,a,b,c;
+int a1,a2,a3,d,e,f,g,h;
 printf("enter the number to print armstrong number \n");
-scanf("%d%d%d",&n1,n2,n3);
-a=n1*n1*n1;
-b=n2*n2*n2;
-c=n3*n3*n3;
-d=a+b+c;
-x=(n1*100)+(n2*10)+(n3*1);
-if(x==d)
+scanf("%d%d%d",&a1,a2,a3);
+d=a1*a1*a1;
+e=a2*a2*a2;
+f=a3*a3*a3;
+h=d+e+f;
+g=(a1*100)+(a2*10)+(a3*1);
+if(g==h)
 {
 printf("%d\n"=armstrong number);
 }
